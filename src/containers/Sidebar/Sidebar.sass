@@ -1,0 +1,46 @@
+.sidebar-navigation
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  width: 200px
+  box-shadow: -2px 0 13px 5px hsla(0,0%,50.2%,.13)
+  background: #0f0c29
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29)
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29)
+  overflow: auto
+  padding: 10px
+  .image-wrap
+    position: relative
+    left: -25px
+  img
+    max-width: 100%
+    text-align: left
+  ul
+    font-size: .7rem
+    text-transform: uppercase
+    font-weight: 600
+    color: #ffffff
+    a
+      color: #ffffff
+      text-decoration: none
+      &.active, &:hover
+        color: red
+        li
+          margin-bottom: 2px
+          padding: 7px 20px
+          border-radius: 50px
+          cursor: pointer
+          border: 1px solid red
+      li
+        margin-bottom: 2px
+        padding: 7px 20px
+        border-radius: 50px
+        cursor: pointer
+        border: 1px solid transparent
+        &:hover
+
+nav
+  i
+    position: absolute
+    right: 10px

@@ -1,0 +1,32 @@
+.movie-slider-content
+  background-size: cover!important
+  background-position: center center!important
+  background-repeat: no-repeat!important
+  height: 800px
+  position: relative
+  z-index: 1
+
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    background-color: #000
+    opacity: 0.6
+    width: 100%
+    height: 100%
+    z-index: -1
+  .info-movie
+    position: absolute
+    bottom: 100px
+    left: 100px
+    color: #ffffff
+    span
+      text-transform: uppercase
+      font-size: 22px
+    h3
+      font-size: 40px
+    .mark-movie
+      text-transform: uppercase
+      font-weight: bold
+
